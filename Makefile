@@ -16,7 +16,7 @@
 # along with movecursor.  If not, see <http://www.gnu.org/licenses/>.
 
 JAVAC = javac
-JAVACFLAGS = -source 1.6 -target 1.6
+JAVACFLAGS = -source 1.5 -target 1.5
 
 MoveCursor.class: MoveCursor.java
 	$(JAVAC) $(JAVACFLAGS) $<
